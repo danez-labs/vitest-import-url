@@ -1,0 +1,20 @@
+{
+  "name": "vitest-default-import",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Repro",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:node": "node node.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/nft": "^0.22.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "vite": "^3.2.0",
+    "vitest": "^0.24.3"
+  }
+}
