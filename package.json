@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "description": "Repro",
-  "type": "module",
   "scripts": {
     "test": "vitest run",
     "test:node": "node node.mjs"
@@ -14,7 +13,7 @@
   },
   "devDependencies": {
     "typescript": "^4.8.4",
-    "vite": "^3.2.0",
-    "vitest": "^0.24.3"
+    "vite": "^3.2.2",
+    "vitest": "^0.24.5"
   }
 }
