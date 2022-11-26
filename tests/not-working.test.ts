@@ -1,11 +1,10 @@
-import { expect, test } from "vitest";
-import { dirname } from "path";
-import { fileURLToPath } from "url";
-
-import x from "../src/index.mjs";
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
+vi.mock("../src/b.js");
+import { expect, test, vi } from "vitest";
+import b from "../src/b.js";
+import x from "../src/index.js";
 
 test("default import", async () => {
-  expect(x()).toBe(2);
+  const result = x();
+  expect(b).toHaveBeenCalled();
+  expect(result).toBe("b");
 });
