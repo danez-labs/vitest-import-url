@@ -9,12 +9,11 @@
     "test:node": "node node.mjs"
   },
   "license": "MIT",
-  "dependencies": {
-    "@vercel/nft": "^0.22.1"
-  },
   "devDependencies": {
-    "typescript": "^4.9.3",
-    "vite": "^3.2.4",
-    "vitest": "^0.25.3"
+    "vite": "^4.0.2",
+    "vitest": "^0.26.0"
+  },
+  "dependencies": {
+    "url": "^0.11.0"
   }
 }

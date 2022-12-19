@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   test: {
-    include: ["tests/**/*.test.ts"],
+    include: ["tests/**/*.test.mjs"],
     deps: {
       interopDefault: false,
     },
